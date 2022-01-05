@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Niaz Bin Siraj",
+        "student_id" : "1711176137",
+        "gender" : "Male",
+        "email" : "niazbinsiraj@gmail.com",
+        "phone" : "01755931751",
+        "blood_group" : "B+",
+        "session" : "2016-17",
+        "student_type" : "Current",
+        "hometown" : "Joypurhat"
+    }
+]

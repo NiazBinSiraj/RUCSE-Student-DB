@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Niaz Bin Siraj",
+        "student_id": "1711176137",
+        "gender": "Male",
+        "email": "niazbinsiraj@gmail.com",
+        "phone": "01755931751",
+        "blood_group": "B+",
+        "session": "2016-17",
+        "student_type": "Current",
+        "hometown": "Joypurhat"
+    },
+    {
+        "id": 2,
+        "name": "Anima Jebin Esha",
+        "student_id": "1712176113",
+        "gender": "Female",
+        "email": "animajebinesha@gmail.com",
+        "phone": "XXXXX-XXXXXX",
+        "blood_group": "B+",
+        "session": "2016-17",
+        "student_type": "Current",
+        "hometown": "Pabna"
+    }
+]
