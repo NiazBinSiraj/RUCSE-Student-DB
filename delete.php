@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_GET['id'])) {
-    $id = $_GET['id'];
+    $id = strip_tags($_GET['id']);
 
     $data = file_get_contents('data.json');
     $students = json_decode($data, true);

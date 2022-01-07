@@ -10,15 +10,15 @@ if(isset($_POST['submit']))
 
     $student = array(
         'id' => end($students)['id']+1,
-        'name' => $_POST['name'],
-        'student_id' => $_POST['student_id'],
-        'gender' => $_POST['gender'],
-        'email' => $_POST['email'],
-        'phone' => $_POST['phone'],
-        'blood_group' => $_POST['blood_group'],
-        'session' => $_POST['session'],
-        'student_type' => $_POST['student_type'],
-        'hometown' => $_POST['hometown']
+        'name' => strip_tags($_POST['name'])),
+        'student_id' => strip_tags($_POST['student_id']),
+        'gender' => strip_tags($_POST['gender']),
+        'email' => strip_tags($_POST['email']),
+        'phone' => strip_tags($_POST['phone']),
+        'blood_group' => strip_tags($_POST['blood_group']),
+        'session' => strip_tags($_POST['session']),
+        'student_type' => strip_tags($_POST['student_type']),
+        'hometown' => strip_tags($_POST['hometown'])
     );
 
     array_push($students, $student);

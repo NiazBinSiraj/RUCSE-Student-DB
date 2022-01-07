@@ -5,7 +5,7 @@ $students = json_decode($json, true);
 
 
 if (isset($_GET['search'])) {
-    $search_term = $_GET['search'];
+    $search_term = strip_tags($_GET['search']);
     $search_length = strlen($search_term);
     $search_term = strtolower($search_term);
     $search_term = explode(" ", $search_term);
