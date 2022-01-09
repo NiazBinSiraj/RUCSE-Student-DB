@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
 
     $student = array(
         'id' => end($students)['id']+1,
-        'name' => strip_tags($_POST['name'])),
+        'name' => strip_tags($_POST['name']),
         'student_id' => strip_tags($_POST['student_id']),
         'gender' => strip_tags($_POST['gender']),
         'email' => strip_tags($_POST['email']),
